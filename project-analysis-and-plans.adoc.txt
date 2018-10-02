@@ -1,0 +1,31 @@
+= Project Analysis and Plans Template
+Matthew Murphy <murp1304@umn.edu>
+v1.0, 2018-10-01
+:toc:
+:imagesdir:
+:homepage:
+:sectnums:
+
+== Summary of the Rhetorical Situation
+_Briefly describe the artifact to be created, relevant background information, definition of the speaker and what are they trying to achieve with the communication._
+
+=== Background
+=== Rhetorical Situation
+==== Primary Speaker, Audience, and Conversation
+==== Secondary Speaker, Audience, and Conversation
+=== Artifact
+== Audience Analysis
+_Include a prioritized (primary, secondary) list of target audiences, a profile for each that describes the audience in terms of who they are and what they likely want/need/require from the communication._
+
+=== Primary Audience
+=== Secondary Audience
+=== Tertiary Audience
+== Communication Objectives
+_List the major objectives the communication aims to achieve. How will you know if the communication is successful? Try to think about objectives from two perspectives._
+
+=== Objective
+=== Speaker Perspective
+=== Audience Perspective
+== Content Inventory and Assessment
+=== Content
+== Personas
