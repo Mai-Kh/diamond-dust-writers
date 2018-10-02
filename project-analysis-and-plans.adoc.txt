@@ -6,12 +6,14 @@ v1.0, 2018-10-01
 :homepage:
 :sectnums:
 
+#This document is a work in progress#
+
 == Summary of the Rhetorical Situation
 _Briefly describe the artifact to be created, relevant background information, definition of the speaker and what are they trying to achieve with the communication._
 
 === Background
 
-The Diamond Dust Writers (DDW) are a small group of poets and writers based in Northeast Minneapolis. Membership is based on invite. The group is mixed in age, gender, and background. They meet regularly to critique each other's writing, and give periodic readings of their work at local coffee shops. They also produce chapbooks of their work, which are sold at their readings. Several members are active in the local and regional poetry community. The name comes from the Diamond's Coffee Shoppe, where the group met initially.
+Diamond Dust Writers (DDW) is a NE Minneapolis-based poetry collective looking for a platform to showcase their work, distribute their chapbooks, and publicize readings and events. Membership is based on invite. The group is mixed in age, gender, and background. They meet regularly to critique each other's writing, and give periodic readings of their work at local coffee shops. They also produce chapbooks of their work, which are sold at their readings. Several members are active in the local and regional poetry community. The name comes from the Diamond's Coffee Shoppe, where the group met initially.
 
 I was introduced to the group about three years ago by one of the members and was active in the group until last year when I enrolled in the S&TC certificate program.
 
@@ -34,20 +36,64 @@ For this project, I am working with Dara, an active and original member of the g
 
 The primary speaker is "the group". My client wishes the group to have one public voice. As a whole, the site will develop single a persona or character which the audience will know as Diamond Dust Writers.
 
+The primary audience is broadly defined as:
+
+ People interested DDW or interested in attending a poetry reading.
+
+Conversation with the primary audience would consist of directing the audience to the website, with the objective (through information and persuasion) of that user attending a reading and/or purchasing a chapbook.
+
 ==== Secondary Speaker, Audience, and Conversation
+
+A secondary speaker exists in the voice individual members of the group.
+
 === Artifact
+
+The artifact is a multipage website that serves as a central place for the group to promote itself and engage in conversation.
+
+In form and feature, it should resemble a blog. A section of the site should introduce the group (e.g. "About Us"). An additional section should promote conversation about the topic of poetry and writing (e.g. "Resources"). The site should include a method to purchase items and a method for contacting the group. A search function should allow users to locate specific information.
+
 == Audience Analysis
 _Include a prioritized (primary, secondary) list of target audiences, a profile for each that describes the audience in terms of who they are and what they likely want/need/require from the communication._
 
 === Primary Audience
+
+The primary audience is broadly defined as:
+
+ People interested DDW or interested in attending a poetry reading.
+
+This audience can be broken into the following sub-audiences:
+
+* Family and friends
+* Local poets and writers
+* Other individuals, e.g.:
+** Patrons of the host coffee shop
+** Patrons of other places where event info was available.
+** Individuals who read about a DDW event online or in a print publication.
+
 === Secondary Audience
-=== Tertiary Audience
+
+A secondary audience exists in users who find the website via Internet search or social media post.
+
 == Communication Objectives
 _List the major objectives the communication aims to achieve. How will you know if the communication is successful? Try to think about objectives from two perspectives._
 
 === Objective
 === Speaker Perspective
+
+The primary speaker goals are to increase attendance at readings and to sell additional chapbooks. The success of these goals can be monitored quantitatively by tallying audience members at readings, and sales and inventory of chapbooks over time.
+
+A secondary goal is to foster a community who will encourage readings and provide connections to other opportunities. A qualitative review of comments and feedback on the site would give an indication of the success of this goal.
+
 === Audience Perspective
+
+Audience members might visit to accomplish one or more of the following:
+
+* Find more information about an event
+* Find more information about the group
+* Purchase a chapbook
+* Contact the group
+* Peruse the site (entertainment)
+
 == Content Inventory and Assessment
 === Content
 == Personas
