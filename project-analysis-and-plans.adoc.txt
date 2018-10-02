@@ -1,4 +1,4 @@
-= Project Analysis and Plans Template
+= Diamond Dust Writers Project Analysis and Plans
 Matthew Murphy <murp1304@umn.edu>
 v1.0, 2018-10-01
 :toc:
@@ -10,8 +10,30 @@ v1.0, 2018-10-01
 _Briefly describe the artifact to be created, relevant background information, definition of the speaker and what are they trying to achieve with the communication._
 
 === Background
+
+The Diamond Dust Writers (DDW) are a small group of poets and writers based in Northeast Minneapolis. Membership is based on invite. The group is mixed in age, gender, and background. They meet regularly to critique each other's writing, and give periodic readings of their work at local coffee shops. They also produce chapbooks of their work, which are sold at their readings. Several members are active in the local and regional poetry community. The name comes from the Diamond's Coffee Shoppe, where the group met initially.
+
+I was introduced to the group about three years ago by one of the members and was active in the group until last year when I enrolled in the S&TC certificate program.
+
+The initial discussion of a website began while the group was organizing its first public reading.
+They group was disappointed in how little their host publicized the upcoming event, and although they had a Facebook event page, they had no central place online, and not everyone in their potential audience used Facebook.
+
+As the group continued to give readings, they felt the lack of a website in other ways. It was difficult to keep track of chapbook sales and inventory without a central point of purchase. They had collected email addresses from people who wanted to hear about upcoming events, but all contact with the list was done manually. Also, the group was developing a history, but had no place to tell its story.
+
+For this project, I am working with Dara, an active and original member of the group. In our initial conversations we identified the following goals for the group's website (prioritized):
+
+1.  Publicize news and events
+2.  Sell chapbooks and other material
+3.  Enable conversation with:
+** past audience members
+** potential audience members
+** members of the local poetry community
+
 === Rhetorical Situation
 ==== Primary Speaker, Audience, and Conversation
+
+The primary speaker is "the group". My client wishes the group to have one public voice. As a whole, the site will develop single a persona or character which the audience will know as Diamond Dust Writers.
+
 ==== Secondary Speaker, Audience, and Conversation
 === Artifact
 == Audience Analysis
