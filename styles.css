@@ -55,3 +55,17 @@ body h1 {
 }
 
 /* End navbar */
+
+/* Begin footer styles */
+.footer {
+	position:relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: #f2f2f2;
+	background-color: #B7B1AA;
+	text-align: center;
+	font-size: smaller;
+	padding: 0.25% .25% .25% .25%;
+}
+/* End footer styles */
