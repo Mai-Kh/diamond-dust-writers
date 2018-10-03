@@ -1,0 +1,57 @@
+
+/* Begin body styles */
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2.5% 2.5% 0;
+}
+
+/* End body styles */
+
+#banner-image img {
+
+  height: auto;
+  width: 100%;
+}
+
+body h1 {
+  font-family: Georgia, serif;
+/*  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
+  color: #63141C;
+}
+/* End body styles */
+
+
+/* Begin navbar */
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #B7B1AA;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: #63141C;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #CEC3BB;
+    color: white;
+}
+
+/* End navbar */
