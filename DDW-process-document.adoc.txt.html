@@ -1,7 +1,7 @@
   <html>
     <head>
       <meta charset="utf-8">
-      <title>Diamond Dust Writers Project Analysis and Plans</title>
+      <title>Diamond Dust Writers Process Documentation</title>
       <style>
         #wrapper {width: 960px; margin: 0 auto;}
         /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -446,246 +446,144 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
     <body>
       <div id="wrapper">
         <div class="article">
-          <h1 id="__asciidoctor-preview-0__">Diamond Dust Writers Project Analysis and Plans</h1>
+          <h1 id="__asciidoctor-preview-0__">Diamond Dust Writers Process Documentation</h1>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_summary_of_the_rhetorical_situation">1. Summary of the Rhetorical Situation</a>
+<li><a href="#_on_creating_a_baseline">1. On creating a baseline</a></li>
+<li><a href="#_on_research_redish_williamson_and_html5">2. On research, Redish, Williamson, and HTML5</a></li>
+<li><a href="#_on_tools_and_technical_challenges">3. On tools and technical challenges</a>
 <ul class="sectlevel2">
-<li><a href="#_background">1.1. Background</a></li>
-<li><a href="#_rhetorical_situation">1.2. Rhetorical Situation</a></li>
-<li><a href="#_artifact">1.3. Artifact</a></li>
+<li><a href="#_client_goals_vs_technical_challenges">3.1. Client goals vs. technical challenges</a></li>
 </ul>
 </li>
-<li><a href="#_audience_analysis">2. Audience Analysis</a>
-<ul class="sectlevel2">
-<li><a href="#_primary_audience">2.1. Primary Audience</a></li>
-<li><a href="#_secondary_audience">2.2. Secondary Audience</a></li>
-</ul>
-</li>
-<li><a href="#_communication_objectives">3. Communication Objectives</a>
-<ul class="sectlevel2">
-<li><a href="#_objective">3.1. Objective</a></li>
-<li><a href="#_speaker_perspective">3.2. Speaker Perspective</a></li>
-<li><a href="#_audience_perspective">3.3. Audience Perspective</a></li>
-</ul>
-</li>
-<li><a href="#_content_inventory_and_assessment">4. Content Inventory and Assessment</a>
-<ul class="sectlevel2">
-<li><a href="#_content">4.1. Content</a></li>
-</ul>
-</li>
-<li><a href="#_personas">5. Personas</a></li>
+<li><a href="#_todo">4. ToDo</a></li>
 </ul>
 </div>
-<div id="preamble">
+<div class="sect1">
+<h2 id="_on_creating_a_baseline">1. On creating a baseline</h2>
 <div class="sectionbody">
 <div id="__asciidoctor-preview-1__" class="paragraph">
-<p><mark>This document is a work in progress</mark></p>
+<p>Before I began coding this project, my client, the Diamond Dust Writers (DDW), and I developed our project plan. We discussed why they were interested in a website and what features were needed. We also discussed the audience that would visit the site. Having completed the draft of the static site, I can say that the product is far from meeting all of the goals we identified in our project plan.</p>
+</div>
+<div id="__asciidoctor-preview-2__" class="paragraph">
+<p>This is not because the site is incomplete (if a website can ever really be complete), but because my client and I decided that an iterative approach would be more practical than assuming that our project plan captured every need. Since my client has never had a website before, there are certain to be "things we can&#8217;t live without that we never knew we needed". The result of an iterative approach would be a site that could more easily evolve with the project plan. The current static site is, therefore, a baseline that meets all of my clients needs; the design is intended to be basic, but flexible.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_summary_of_the_rhetorical_situation">1. Summary of the Rhetorical Situation</h2>
+<h2 id="_on_research_redish_williamson_and_html5">2. On research, Redish, Williamson, and HTML5</h2>
 <div class="sectionbody">
-<div id="__asciidoctor-preview-2__" class="paragraph">
-<p><em>Briefly describe the artifact to be created, relevant background information, definition of the speaker and what are they trying to achieve with the communication.</em></p>
-</div>
-<div class="sect2">
-<h3 id="_background">1.1. Background</h3>
 <div id="__asciidoctor-preview-3__" class="paragraph">
-<p>Diamond Dust Writers (DDW) is a NE Minneapolis-based poetry collective looking for a platform to showcase their work, distribute their chapbooks, and publicize readings and events. Membership is based on invite. The group is mixed in age, gender, and background. They meet regularly to critique each other&#8217;s writing, and give periodic readings of their work at local coffee shops. They also produce chapbooks of their work, which are sold at their readings. Several members are active in the local and regional poetry community. The name comes from the Diamond&#8217;s Coffee Shoppe, where the group met initially.</p>
+<p>I began my project by researching sites with a similar purpose to my client&#8217;s. I noted what features were most important to my client, as well as those that common to the genre of site I was designing. I found Redish&#8217;s discussion about conversation helpful during this phase. Looking at site features from Redish&#8217;s perspective gave me a better understanding of how they should be implemented. For example, many sites post details of upcoming events. This is information that many visitors go to a site specifically to find. Yet, many sites bury this information two or three mouse clicks deep, creating layers of work for the visitor. A more conversational approach would be to display the information upfront, but a way that is unobtrusive.</p>
 </div>
 <div id="__asciidoctor-preview-4__" class="paragraph">
-<p>I was introduced to the group about three years ago by one of the members and was active in the group until last year when I enrolled in the S&amp;TC certificate program.</p>
+<p>After matching my list of features with my client&#8217;s goals for the site, I started to look at source code to see if I could understand how different features were built. I downloaded several free templates and explored their code in the Atom editor. I also used the Developer Tools in Chrome and Firefox to understand the relationship between different elements and their styles.</p>
 </div>
 <div id="__asciidoctor-preview-5__" class="paragraph">
-<p>The initial discussion of a website began while the group was organizing its first public reading.
-They group was disappointed in how little their host publicized the upcoming event, and although they had a Facebook event page, they had no central place online, and not everyone in their potential audience used Facebook.</p>
+<p>During this phase I started looking broadly at how I would solve some of the challenges that I already knew I would run into. For example, it is important to my client that visitors be able to content them through the site. However, the group does not have a phone number, address, or email that I could list as contact information. A contact form would be an effective solation, yet a typical email contact form relies on PHP-- something not available on a GitHub-hosted site.</p>
 </div>
 <div id="__asciidoctor-preview-6__" class="paragraph">
-<p>As the group continued to give readings, they felt the lack of a website in other ways. It was difficult to keep track of chapbook sales and inventory without a central point of purchase. They had collected email addresses from people who wanted to hear about upcoming events, but all contact with the list was done manually. Also, the group was developing a history, but had no place to tell its story.</p>
+<p>Looking at source for existing sites and thinking about some of these technical challenges gave me enough information to sketch out the structure of my client&#8217;s site. I wanted to combine features that I saw consistently in my site&#8217;s genre, those of a blog and a portfolio. I wanted to look to be minimal with a balance of white space and text. I also wanted the site to be light-weight so that it could be easily moved or rewritten for another platform that offered more functionality than static html. To do this, I designed the page as a single html document with in-page anchor links. This allows a visitor to navigate the site using the navigation menu at the top or to simply scroll down to view additional content. All of the site content (except images) is contained within a single file.</p>
 </div>
 <div id="__asciidoctor-preview-7__" class="paragraph">
-<p>For this project, I am working with Dara, an active and original member of the group. In our initial conversations we identified the following goals for the group&#8217;s website (prioritized):</p>
-</div>
-<div id="__asciidoctor-preview-8__" class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Publicize news and events</p>
-</li>
-<li>
-<p>Sell chapbooks and other material</p>
-</li>
-<li>
-<p>Enable conversation with:</p>
-<div id="__asciidoctor-preview-9__" class="ulist">
-<ul>
-<li>
-<p>past audience members</p>
-</li>
-<li>
-<p>potential audience members</p>
-</li>
-<li>
-<p>members of the local poetry community</p>
-</li>
-</ul>
-</div>
-</li>
-</ol>
+<p>As I began actually coding on my client&#8217;s site, I realized just how much has changed since the last time I created a website from scratch. I really appreciated the Lynda tutorial by Williamson when he talks about the differences between HTML4 and HTML5. Using tags to organize information instead of just using them to display elements (as we did throughout the 1990&#8217;s) makes html so much more versatile. I was once one of those that Williamson refers to who used heading tags based on the size of the resulting text, rather than on the structure of the document!</p>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_rhetorical_situation">1.2. Rhetorical Situation</h3>
-<div class="sect3">
-<h4 id="_primary_speaker_audience_and_conversation">1.2.1. Primary Speaker, Audience, and Conversation</h4>
+</div>
+<div class="sect1">
+<h2 id="_on_tools_and_technical_challenges">3. On tools and technical challenges</h2>
+<div class="sectionbody">
+<div id="__asciidoctor-preview-8__" class="paragraph">
+<p>While doing the work of coding, I found I did not refer back to Redish or Williamson. The one exception was when I went back to the Lynda.com exercises to see how he managed the spacing on his pages. I found that my work had more flow if I opened a new browser tab and "Google&#8217;d" the problem I ran into as it happened. Most of my questions were readily answered. I used several tutorials on the <a href="https://www.w3schools.com/">W3C Schools</a> website (<a href="https://www.w3schools.com" class="bare">https://www.w3schools.com</a>). Deconstructing the example code snippets led to a better understanding. I also appreciated that their examples contained inline styles, which let me see how a change in style affected the element without switching between two separate files.</p>
+</div>
+<div id="__asciidoctor-preview-9__" class="paragraph">
+<p>In a few cases, I found neither the W3C Schools nor the Mozilla Developer Network provided a helpful example. One of these was the use of the &lt;Section&gt; element. Neither site provided context to how it was used in comparison to similar elements, such as &lt;Article&gt;. I eventually came to an understanding by reading several blog posts. I would not call any of the blogs academically creditable, but in combination, they provided the context I was missing. (Although Williamson discusses this in his tutorial, he talks through it rather quickly.)</p>
+</div>
 <div id="__asciidoctor-preview-10__" class="paragraph">
-<p>The primary speaker is "the group". My client wishes the group to have one public voice. As a whole, the site will develop single a persona or character which the audience will know as Diamond Dust Writers.</p>
+<p>One site element that took more time than I anticipated was the banner image. The image is a photograph of my client, the Diamond Dust Writers. I used Infinite Painter on my Android tablet to manipulate the original photograph. I am familiar with the application because I use it for my own digital art. However, I found that I needed to use another application to reduce both the file size and the canvas size of the image. Even after uploading the image and displaying it on the site, I had to make additional adjustments to the size and scale using CSS so that the image was displayed in correct relationship to the page size and the navigation bar. Since I knew that Chrome, Firefox, and Opera would each interpret the site differently, I tested each adjustment in all three browsers. Minor adjustment like this one were a repetition of trial and error.</p>
 </div>
 <div id="__asciidoctor-preview-11__" class="paragraph">
-<p>The primary audience is broadly defined as:</p>
+<p>The photograph I used for the banner image also provided the color palette used for the site. The website <a href="https://www.canva.com/">Canva</a> (<a href="https://www.canva.com/" class="bare">https://www.canva.com/</a>) allows you to upload an image to use as the base color swatch. I wanted a minimal design that focused attention on text (my clients are writers), so the limited color palette provided by Canva worked well for my client.</p>
 </div>
-<div id="__asciidoctor-preview-12__" class="literalblock">
-<div class="content">
-<pre>People interested DDW or interested in attending a poetry reading.</pre>
+<div id="__asciidoctor-preview-12__" class="paragraph">
+<p>I experimented with features before deciding that they were not right for the site or the client. In particular, I wanted a way to display information about upcoming events in such a way that the visitor did not have to click a link in order to find. I trialed variants of a floating text box that sat over or at the edge of the main body of text. This was done using the CSS attributes of <em>position</em> and <em>z-index</em>. After several attempts, I decided that this was distracting to the reader and it was left out.</p>
 </div>
-</div>
+<div class="sect2">
+<h3 id="_client_goals_vs_technical_challenges">3.1. Client goals vs. technical challenges</h3>
 <div id="__asciidoctor-preview-13__" class="paragraph">
-<p>Conversation with the primary audience would consist of directing the audience to the website, with the objective (through information and persuasion) of that user attending a reading and/or purchasing a chapbook.</p>
+<p>In some cases, technical challenges were presented by the goals we had identified for the site. I&#8217;ve summarized two of these below:</p>
+</div>
+<div class="sect3">
+<h4 id="_contact_form">3.1.1. Contact form</h4>
+<div id="__asciidoctor-preview-14__" class="paragraph">
+<p><strong>Goal:</strong> My client wants the site to facilitate conversation between the group and its audience. Initially, this is to be accomplished by letting visitors contact the group through the website.</p>
+</div>
+<div id="__asciidoctor-preview-15__" class="paragraph">
+<p><strong>Challenge:</strong> This is typically done through a contact form that stores information (name, email address, message) in a database or sends it to an email address. HTML-CSS-JavaScript does not provide this functionality; it is typically provided via PHP. The developer must upload the script to a server running PHP. GitHub-hosted sites cannot run PHP scripts unless an outside server hosts the script.</p>
+</div>
+<div id="__asciidoctor-preview-16__" class="paragraph">
+<p><strong>Solution:</strong> Google Forms allows anyone with a Google account to create forms and surveys, which can be embedded in a website using a code snippet. For my client&#8217;s site, I created a simple contact form, which I embedded under the Contact section of the site. Contact form submissions are stored in a Google spreadsheet, which can be shared with multiple people so that any group member can respond.</p>
+</div>
+<div id="__asciidoctor-preview-17__" class="paragraph">
+<p><strong>Limitations:</strong> The embedded form allow only limited styling. The font does not appear to be changeable. Site styles do not apply to embedded objects.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_secondary_speaker_audience_and_conversation">1.2.2. Secondary Speaker, Audience, and Conversation</h4>
-<div id="__asciidoctor-preview-14__" class="paragraph">
-<p>A secondary speaker exists in the voice individual members of the group.</p>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_artifact">1.3. Artifact</h3>
-<div id="__asciidoctor-preview-15__" class="paragraph">
-<p>The artifact is a multipage website that serves as a central place for the group to promote itself and engage in conversation.</p>
-</div>
-<div id="__asciidoctor-preview-16__" class="paragraph">
-<p>In form and feature, it should resemble a blog. A section of the site should introduce the group (e.g. "About Us"). An additional section should promote conversation about the topic of poetry and writing (e.g. "Resources"). The site should include a method to purchase items and a method for contacting the group. A search function should allow users to locate specific information.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_audience_analysis">2. Audience Analysis</h2>
-<div class="sectionbody">
-<div id="__asciidoctor-preview-17__" class="paragraph">
-<p><em>Include a prioritized (primary, secondary) list of target audiences, a profile for each that describes the audience in terms of who they are and what they likely want/need/require from the communication.</em></p>
-</div>
-<div class="sect2">
-<h3 id="_primary_audience">2.1. Primary Audience</h3>
+<h4 id="_book_sales">3.1.2. Book sales</h4>
 <div id="__asciidoctor-preview-18__" class="paragraph">
-<p>The primary audience is broadly defined as:</p>
+<p><strong>Goal:</strong> My client wants to sell chapbooks and other material from their website.</p>
 </div>
-<div id="__asciidoctor-preview-19__" class="literalblock">
-<div class="content">
-<pre>People interested DDW or interested in attending a poetry reading.</pre>
-</div>
+<div id="__asciidoctor-preview-19__" class="paragraph">
+<p><strong>Challenge:</strong> Online storefronts typically use page templates the rely on PHP to retrieve produce information from a hosted database. GitHub provides neither PHP servers nor database functionality.</p>
 </div>
 <div id="__asciidoctor-preview-20__" class="paragraph">
-<p>This audience can be broken into the following sub-audiences:</p>
+<p><strong>Solution:</strong> PayPal and other online merchant services allow a user to create a database of products which are stored on their (PayPal, etc.'s) servers. Users can embed these products in their webpage using code snippets. <sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnote_1" title="View footnote.">1</a>]</sup></p>
 </div>
-<div id="__asciidoctor-preview-21__" class="ulist">
-<ul>
-<li>
-<p>Family and friends</p>
-</li>
-<li>
-<p>Local poets and writers</p>
-</li>
-<li>
-<p>Other individuals, e.g.:</p>
-<div id="__asciidoctor-preview-22__" class="ulist">
-<ul>
-<li>
-<p>Patrons of the host coffee shop</p>
-</li>
-<li>
-<p>Patrons of other places where event info was available.</p>
-</li>
-<li>
-<p>Individuals who read about a DDW event online or in a print publication.</p>
-</li>
-</ul>
+<div id="__asciidoctor-preview-21__" class="paragraph">
+<p><strong>Limitations:</strong> PayPal objects offer limited customization. Styling is done via the PayPal website rather than through the client&#8217;s site. Therefore, the client site styles do not apply to the object. In addition, the developer must be logged into the user&#8217;s PayPal account in order to make style changes-- which could result in breaches of privacy and security.</p>
 </div>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_secondary_audience">2.2. Secondary Audience</h3>
-<div id="__asciidoctor-preview-23__" class="paragraph">
-<p>A secondary audience exists in users who find the website via Internet search or social media post.</p>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_communication_objectives">3. Communication Objectives</h2>
+<h2 id="_todo">4. ToDo</h2>
 <div class="sectionbody">
-<div id="__asciidoctor-preview-24__" class="paragraph">
-<p><em>List the major objectives the communication aims to achieve. How will you know if the communication is successful? Try to think about objectives from two perspectives.</em></p>
+<div id="__asciidoctor-preview-22__" class="paragraph">
+<p>The following items are still open on my todo list:</p>
 </div>
-<div class="sect2">
-<h3 id="_objective">3.1. Objective</h3>
-
-</div>
-<div class="sect2">
-<h3 id="_speaker_perspective">3.2. Speaker Perspective</h3>
-<div id="__asciidoctor-preview-25__" class="paragraph">
-<p>The primary speaker goals are to increase attendance at readings and to sell additional chapbooks. The success of these goals can be monitored quantitatively by tallying audience members at readings, and sales and inventory of chapbooks over time.</p>
-</div>
-<div id="__asciidoctor-preview-26__" class="paragraph">
-<p>A secondary goal is to foster a community who will encourage readings and provide connections to other opportunities. A qualitative review of comments and feedback on the site would give an indication of the success of this goal.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_audience_perspective">3.3. Audience Perspective</h3>
-<div id="__asciidoctor-preview-27__" class="paragraph">
-<p>Audience members might visit to accomplish one or more of the following:</p>
-</div>
-<div id="__asciidoctor-preview-28__" class="ulist">
-<ul>
+<div id="__asciidoctor-preview-23__" class="ulist checklist">
+<ul class="checklist">
 <li>
-<p>Find more information about an event</p>
+<p><i class="fa fa-check-square-o"></i> Move banner image to an "images" folder.</p>
 </li>
 <li>
-<p>Find more information about the group</p>
+<p><i class="fa fa-square-o"></i> Add Google Analytics code</p>
 </li>
 <li>
-<p>Purchase a chapbook</p>
+<p><i class="fa fa-square-o"></i> [1] Rewrite body content get rid of "wall of text" users see when they come to site.</p>
 </li>
 <li>
-<p>Contact the group</p>
+<p><i class="fa fa-square-o"></i> [2] Add inline text box to Readings section to display info about the next event.</p>
 </li>
 <li>
-<p>Peruse the site (entertainment)</p>
+<p><i class="fa fa-square-o"></i> [3] Add descriptive info about each chapbook for sale.</p>
+</li>
+<li>
+<p><i class="fa fa-square-o"></i> Add bottom site navigation and [home] links to sections.</p>
+</li>
+<li>
+<p><i class="fa fa-square-o"></i> Clean up styles.css</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_content_inventory_and_assessment">4. Content Inventory and Assessment</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="_content">4.1. Content</h3>
-
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_personas">5. Personas</h2>
-<div class="sectionbody">
-
+<div id="footnotes">
+<hr>
+<div class="footnote" id="_footnote_1">
+<a href="#_footnoteref_1">1</a>. At this time, the group does not have a PayPal account. Our secondary solution was to refer questions about the availability and cost of chapbooks to the contact form.
 </div>
 </div>
         </div>
