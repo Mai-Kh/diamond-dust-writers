@@ -71,7 +71,7 @@ body h1 {
 
 .botnav {
     background-color: #B7B1AA;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .botnav a {
