@@ -66,8 +66,8 @@ The following items are still open on my todo list:
 
 - [x] Move banner image to an "images" folder.
 - [ ] Add Google Analytics code
-- [ ] [1] Rewrite body content get rid of "wall of text" users see when they come to site.
-- [ ] [2] Add inline text box to Readings section to display info about the next event.
-- [ ] [3] Add descriptive info about each chapbook for sale.
-- [ ] Add bottom site navigation and [home] links to sections.
+- [x] [1] Rewrite body content get rid of "wall of text" users see when they come to site.
+- [ ] [2] [line-through]#Add inline text box to Readings section to display info about the next event.# ##No upcoming events. this can wait for next update.##
+- [ ] [3] [line-through]#Add descriptive info about each chapbook for sale.# ##No content from client yet##
+- [x] Add bottom site navigation [line-through]#and [home] links to sections#.
 - [ ] Clean up styles.css

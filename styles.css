@@ -74,13 +74,18 @@ body h1 {
     overflow: hidden;
 }
 
+.bottomnav {
+	margin: auto;
+	width: 100%;
+}
+
 .bottomnav a {
-	float: left;
+	float: left ;
 	color: #f2f2f2;
 	text-align: center;
-	padding: 3px 17px;
+	padding: 17px 19px;
 	text-decoration: none;
-	font-size: 12px;
+	font-size: 17px;
 }
 
 /* Begin footer styles */
