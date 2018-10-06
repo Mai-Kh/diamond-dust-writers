@@ -12,10 +12,11 @@ body {
 body h1 {
   font-family: Georgia, serif;
   color: #63141C;
-	border-style: solid;
+/*	border-style: solid;
 	border-color: #B7B1AA;
 	border-width: thick;
 	background-color: #B7B1AA;
+	*/
 }
 /* End body styles */
 
