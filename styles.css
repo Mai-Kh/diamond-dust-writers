@@ -35,6 +35,7 @@ body h1 {
 .section-title {
 	width: 100%;
 	color: #B7B1AA;
+	padding: 1px;
 }
 
 /* Begin navbar */
