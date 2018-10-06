@@ -12,13 +12,6 @@ body {
 body h1 {
   font-family: Georgia, serif;
   color: #63141C;
-/*	border-style: solid;
-	border-color: #B7B1AA;
-	border-width: thick;
-	background-color: #B7B1AA;
-	*/
-	border-bottom: 15px;
-	border-color: #63141C;
 }
 /* End body styles */
 
@@ -29,16 +22,6 @@ body h1 {
   width: 100%;
 }
 
-.banner h1 {
-
-	border-style: none;
-
-}
-
-.section-title {
-	width: 100%;
-
-}
 
 /* Begin navbar */
 /* Add background color to the top navigation */
