@@ -32,6 +32,11 @@ body h1 {
 
 }
 
+.section-title {
+	width: 100%;
+	color: #B7B1AA;
+}
+
 /* Begin navbar */
 /* Add background color to the top navigation */
 .topnav {
