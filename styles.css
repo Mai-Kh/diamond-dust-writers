@@ -3,7 +3,7 @@
 body {
 	/*font-family: Verdana, Geneva, sans-serif;*/
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	font-size: 100%;
+	font-size: 14pt;
 	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
@@ -69,12 +69,12 @@ body h1 {
 	margin-top: 1.5em;
 }
 
-.botnav {
+.bottomnav {
     background-color: #B7B1AA;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 
-.botnav a {
+.bottomnav a {
 	float: left;
 	color: #f2f2f2;
 	text-align: center;
