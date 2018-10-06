@@ -17,6 +17,8 @@ body h1 {
 	border-width: thick;
 	background-color: #B7B1AA;
 	*/
+	border-bottom: inherit;
+	border-color: #63141C;
 }
 /* End body styles */
 
@@ -35,8 +37,10 @@ body h1 {
 
 .section-title {
 	width: 100%;
+	/*
 	color: #B7B1AA;
 	padding: 50px;
+	*/
 }
 
 /* Begin navbar */
