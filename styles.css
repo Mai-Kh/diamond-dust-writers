@@ -9,7 +9,14 @@ body {
 	padding: .25% .25% 0;
 }
 
+body h1 {
+  font-family: Georgia, serif;
+  color: #63141C;
+	border-style: solid;
+	border-color: #B7B1AA;
+}
 /* End body styles */
+
 
 #banner-image img {
 
@@ -17,16 +24,14 @@ body {
   width: 100%;
 }
 
-body h1 {
-  font-family: Georgia, serif;
-/*  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
-  color: #63141C;
-}
-/* End body styles */
+.banner h1 {
 
+	border-style: none;
+
+}
 
 /* Begin navbar */
-/* Add a black background color to the top navigation */
+/* Add background color to the top navigation */
 .topnav {
     background-color: #B7B1AA;
     overflow: hidden;
