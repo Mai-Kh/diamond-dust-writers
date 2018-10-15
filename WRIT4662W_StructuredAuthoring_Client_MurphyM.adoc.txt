@@ -1,0 +1,66 @@
+= Structured Authoring with XML Client Documentation
+Matthew Murphy <murp1304@umn.edu>
+v1.0, 2018-10-14
+:toc:
+:imagesdir:
+:homepage:
+// :sectnums:
+
+
+[small]#Matthew Murphy +
+WRIT 4662W Writing with Digital Technology +
+2018-10-17#
+
+Diamond Dust Writers: +
+   https://telecommatt.github.io/diamond-dust-writers/
+
+== Explaining XML
+
+When I met with my client about this portion of the assignment, my first task was to explain to them what I needed. Because my client doesn't need (or want) a lengthy description of the technology behind their site, I kept our conversation at a surface level. I explained that some part of a website are static and change only when the designer updates the site. Other parts of a site change whenever new information (data) is available. Other examples we talked about included the information submitted on a contact form or an item purchased through an online store.
+
+So that she could better understand my assignment, I paraphrased Marini's description of XML from his Lynda.com tutorial: HTML describes websites, whereas XML describes data.footnote:[“What Is XML?” Lynda.com - from LinkedIn. Accessed October 14, 2018. https://www.lynda.com/XML-tutorials/What-XML/661763/703446-4.html?autoplay=true.
+] I needed to write a description of the data that related to their website.
+
+== Relating back to our analysis
+
+Our next step was to identify the data needs of my client's website. Going back to our analysis document, we reviewed the three primary goals of their site:
+
+* Inform people about upcoming poetry readings.
+* Sell poetry the group had published.
+* Encourage audience conversation with the group.
+
+Each of these goals required data to be described and transferred. We discussed each in turn.
+
+=== Enable conversation
+
+This goals was addressed by adding a contact form to the static website. Google Forms already provided a user-friendly way for my client to collect and use visitors' contact information. My client felt comfortable with this solution and we moved on to the next goal.
+
+=== Sell poetry
+
+My client and I discussed the technology behind selling products on a website. Due to the complexity of creating a shopping cart and linking it to a payment processing system, we decided it best to look for an off-the-shelf solution or use tools provided by a payment processer such as PayPal or Stripe. We choose, instead, to focus on the remaining goal of informing people about upcoming events.
+
+=== Inform people
+
+As our discussion unfolded, we began to understand more about how 'data' fit into the goals we had established for the site. For example, one feature that I am working on for them is a small inline box that displays the date and time of the next poetry reading. Clicking on this would bring the user to a page containing detailed information about the event. XML would provide a way for the group's next event to always be the one displayed on the homepage.
+
+In addition, they are considering emailing people who attended previous reading to inform them of upcoming events. Storing event information in XML would allow the same data to be used to keep the website up to date and to inform their email list.
+
+== Describing the data
+
+Our next step was to come up with a description of the data we would need. We decided that, although publicizing events was the primary reason something might be posted to their site, they might also want to share important news. In addition, there might someday be other types of events than just readings. We asked questions such as, "What does someone need to know in order come to one of our readings?" We noted that there were fewer elements related to News because it was more freeform and less defined than an Event. I explained that there would be additional information carried in the data that would make it searchable and sortable, such as the date it was posted and who it was posted by.footnote:[“XML Attributes.” Accessed October 14, 2018. https://www.w3schools.com/xml/xml_attributes.asp.
+]
+
+By this point, I had gathered enough information to begin defining the data elements and definitions. The table below summarizes the results of our discussion:
+
+.Possible elements and attributes
+
+|===
+|Event  |News |metadata
+
+|type of event | title |post date
+|date | description |author
+|time | date written |last updated
+|location ||tags
+|cost ||
+|description ||
+|===
