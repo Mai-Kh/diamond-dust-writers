@@ -14,12 +14,15 @@ WRIT 4662W Writing with Digital Technology +
 Diamond Dust Writers: +
    https://telecommatt.github.io/diamond-dust-writers/
 
+Structured Authoring with XML Client Documentation:
+
+
 == Explaining XML
 
-When I met with my client about this portion of the assignment, my first task was to explain to them what I needed. Because my client doesn't need (or want) a lengthy description of the technology behind their site, I kept our conversation at a surface level. I explained that some part of a website are static and change only when the designer updates the site. Other parts of a site change whenever new information (data) is available. Other examples we talked about included the information submitted on a contact form or an item purchased through an online store.
+When I met with my client about this portion of the assignment, my first task was to explain to them what I needed. Rather than talk at length about the technology behind their website, I kept our conversation at a surface level. I explained that some parts of a website are static and change only when the designer updates the site. Other parts of a site change whenever new information (data) is available. Other examples we talked about included the information submitted on a contact form or an item purchased through an online store.
 
 So that she could better understand my assignment, I paraphrased Marini's description of XML from his Lynda.com tutorial: HTML describes websites, whereas XML describes data.footnote:[“What Is XML?” Lynda.com - from LinkedIn. Accessed October 14, 2018. https://www.lynda.com/XML-tutorials/What-XML/661763/703446-4.html?autoplay=true.
-] I needed to write a description of the data that related to their website.
+] For my assignment, I needed to write a description of the data that related to their website.
 
 == Relating back to our analysis
 
@@ -43,11 +46,11 @@ My client and I discussed the technology behind selling products on a website. D
 
 As our discussion unfolded, we began to understand more about how 'data' fit into the goals we had established for the site. For example, one feature that I am working on for them is a small inline box that displays the date and time of the next poetry reading. Clicking on this would bring the user to a page containing detailed information about the event. XML would provide a way for the group's next event to always be the one displayed on the homepage.
 
-In addition, they are considering emailing people who attended previous reading to inform them of upcoming events. Storing event information in XML would allow the same data to be used to keep the website up to date and to inform their email list.
+In addition, they are considering emailing people who attended previous readings to inform them of upcoming events. Storing event information in XML would allow the same data to be used to keep the website up to date and to inform their email list.
 
 == Describing the data
 
-Our next step was to come up with a description of the data we would need. We decided that, although publicizing events was the primary reason something might be posted to their site, they might also want to share important news. In addition, there might someday be other types of events than just readings. We asked questions such as, "What does someone need to know in order come to one of our readings?" We noted that there were fewer elements related to News because it was more freeform and less defined than an Event. I explained that there would be additional information carried in the data that would make it searchable and sortable, such as the date it was posted and who it was posted by.footnote:[“XML Attributes.” Accessed October 14, 2018. https://www.w3schools.com/xml/xml_attributes.asp.
+Our next step was coming up with a description of the data we would need. We decided that, although publicizing events was the primary reason something might be posted to the site, they might also want to share important news. In addition, there might someday be other types of events than just readings. We asked questions such as, "What does someone need to know in order come to one of our readings?" We noted that there were fewer elements related to News because it was more freeform and less defined than an Event. I explained that there would be additional information carried in the data that would make it searchable and sortable, such as the date it was posted and who it was posted by.footnote:[“XML Attributes.” Accessed October 14, 2018. https://www.w3schools.com/xml/xml_attributes.asp.
 ]
 
 By this point, I had gathered enough information to begin defining the data elements and definitions. The table below summarizes the results of our discussion:
