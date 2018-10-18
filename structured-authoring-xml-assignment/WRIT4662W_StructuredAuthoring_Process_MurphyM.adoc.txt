@@ -11,11 +11,6 @@ v1.0, 2018-10-16
 WRIT 4662W Writing with Digital Technology +
 2018-10-18#
 
-Diamond Dust Writers: +
-   https://telecommatt.github.io/diamond-dust-writers/
-
-Structured Authoring with XML Process Documentation:
-
 == Background
 
 Previously, I met with my client to discuss our assignment and talk about how XML might be useful in accomplishing the goals we established during the analysis phase of our website project. The take away from our meeting was a description of the data which we were to define in our tag set.
@@ -141,3 +136,14 @@ Regardless, I found value in both the exercise and in the tag set I've provided 
 |cost ||
 |description ||
 |===
+
+[appendix]
+== Project Links
+Diamond Dust Writers: +
+   https://telecommatt.github.io/diamond-dust-writers/
+
+Github profile:
+https://github.com/telecommatt/
+
+Structured Authoring with XML Assignment:
+https://github.com/telecommatt/diamond-dust-writers/tree/master/structured-authoring-xml-assignment

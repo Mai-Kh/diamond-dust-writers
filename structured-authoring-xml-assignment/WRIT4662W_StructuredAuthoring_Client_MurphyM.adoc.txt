@@ -11,12 +11,6 @@ v1.0, 2018-10-14
 WRIT 4662W Writing with Digital Technology +
 2018-10-17#
 
-Diamond Dust Writers: +
-   https://telecommatt.github.io/diamond-dust-writers/
-
-Structured Authoring with XML Client Documentation:
-
-
 == Explaining XML
 
 When I met with my client about this portion of the assignment, my first task was to explain to them what I needed. Rather than talk at length about the technology behind their website, I kept our conversation at a surface level. I explained that some parts of a website are static and change only when the designer updates the site. Other parts of a site change whenever new information (data) is available. Other examples we talked about included the information submitted on a contact form or an item purchased through an online store.
@@ -67,3 +61,16 @@ By this point, I had gathered enough information to begin defining the data elem
 |cost ||
 |description ||
 |===
+
+
+[appendix]
+
+== Project Links
+Diamond Dust Writers: +
+   https://telecommatt.github.io/diamond-dust-writers/
+
+Github profile:
+https://github.com/telecommatt/
+
+Structured Authoring with XML Assignment:
+https://github.com/telecommatt/diamond-dust-writers/tree/master/structured-authoring-xml-assignment
