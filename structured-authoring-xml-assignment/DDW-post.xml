@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no" encoding="UTF-8"?>
+<!DOCTYPE post system "DDW-post.dtd">
+<post postID="001">
+  <postEvent eventID="001" eventCreatedDatetime="2018-10-15 20:29:36" eventLastUpdatedDatetime="2018-10-15 20:29:36">
+    <eventType>Reading</eventType>
+    <eventDate>2018-10-15</eventDate>
+    <eventBeginTime>20:30:00</eventBeginTime>
+    <eventEndTime>22:30:00</eventEndTime>
+    <eventLocation>Diamond's Coffee Shoppe</eventLocation>
+    <eventCost>$0.00</eventCost>
+    <eventTitle>Reading and Chapbook Release</eventTitle>
+    <eventShortDescription>Reading and Chapbook release at Diamond's</eventShortDescription>
+    <eventLongDescription>Join DDW at Diamond's in NE Minneapolis for their next reading. An open mic will follow the reading. Chapbooks will be for sale throughout.</eventLongDescription>
+    <eventAuthor>Matthew Murphy</eventAuthor>
+    <eventTags"open mic"></eventTags>
+  </postEvent>
+  <postNews newsID="001" newsCreatedDatetime="2018-10-15 20:29:36" newsLastUpdatedDatetime="2018-10-15 20:29:36">
+    <newsTitle>New Website</newsTitle>
+    <newsShortDescription>We have a new website!</newsShortDescription>
+    <newsLongDescription>Diamond Dust Writers invites to visit or brand new website.</newsLongDescription>
+    <newsAuthor>Matthew Murphy</newsAuthor>
+    <newsTags>"website"</newsTags>
+  </postAnnouncement>
+</post>

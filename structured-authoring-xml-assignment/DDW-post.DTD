@@ -1,0 +1,40 @@
+  <!--post element-->
+<!ELEMENT post (postEvent | postNews)>
+
+<!--event element-->
+<!ELEMENT postEvent (eventType, eventDate, eventBeginTime, eventEndTime, eventLocation, eventCost, eventTitle ,eventShortDescription, eventLongDescription, eventAuthor, eventTags?)>
+
+<!ELEMENT eventType (#PCDATA)>
+<!ELEMENT eventDate (#PCDATA)>
+<!ELEMENT eventBeginTime (#PCDATA)>
+<!ELEMENT eventEndTime (#PCDATA)>
+<!ELEMENT eventLocation (#PCDATA)>
+<!ELEMENT eventCost (#PCDATA)>
+<!ELEMENT eventTitle (#PCDATA)>
+<!ELEMENT eventShortDescription (#PCDATA)>
+<!ELEMENT eventLongDescription (#PCDATA)>
+<!ELEMENT eventAuthor (#PCDATA)>
+<!ELEMENT eventTags (#PCDATA)>
+
+<!--News element-->
+<!ELEMENT postNews (newsTitle, newsShortDescription, newsLongDescription, newsAuthor, newsTags?)>
+
+<!ELEMENT newsTitle (#PCDATA)>
+<!ELEMENT newsShortDescription (#PCDATA)>
+<!ELEMENT newsLongDescription (#PCDATA)>
+<!ELEMENT newsAuthor (#PCDATA)>
+<!ELEMENT newsTags (#PCDATA)>
+
+<!--begin attribute lists-->
+<!ATTLIST post
+  postID CDATA #REQUIRED>
+
+<!ATTLIST postEvent
+  eventID CDATA #REQUIRED
+  eventCreatedDatetime CDATA #REQUIRED
+  eventLastUpdatedDatetime CDATA #IMPLIED>
+
+<!ATTLIST postNews
+  newsID CDATA #REQUIRED
+  newsCreatedDatetime CDATA #REQUIRED
+  newsLastUpdatedDatetime CDATA #REQUIRED>
