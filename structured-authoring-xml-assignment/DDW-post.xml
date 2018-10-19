@@ -1,5 +1,6 @@
 <?xml version="1.0" standalone="no" encoding="UTF-8"?>
 <!DOCTYPE post system "DDW-post.dtd">
+<!-- I suggest adding root tag here <posts> which is closed right at the end of the document -->
 <post postID="001">
   <postEvent eventID="001" eventCreatedDatetime="2018-10-15 20:29:36" eventLastUpdatedDatetime="2018-10-15 20:29:36">
     <eventType>Reading</eventType>
