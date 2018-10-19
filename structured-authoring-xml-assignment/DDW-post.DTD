@@ -38,3 +38,5 @@
   newsID CDATA #REQUIRED
   newsCreatedDatetime CDATA #REQUIRED
   newsLastUpdatedDatetime CDATA #REQUIRED>
+  
+  
