@@ -14,11 +14,15 @@
     <eventAuthor>Matthew Murphy</eventAuthor>
     <eventTags"open mic"></eventTags>
   </postEvent>
+</post>
+
+<post postID="002">
+  </postEvent>
   <postNews newsID="001" newsCreatedDatetime="2018-10-15 20:29:36" newsLastUpdatedDatetime="2018-10-15 20:29:36">
     <newsTitle>New Website</newsTitle>
     <newsShortDescription>We have a new website!</newsShortDescription>
     <newsLongDescription>Diamond Dust Writers invites to visit or brand new website.</newsLongDescription>
     <newsAuthor>Matthew Murphy</newsAuthor>
     <newsTags>"website"</newsTags>
-  </postAnnouncement>
+  </postNews>
 </post>
